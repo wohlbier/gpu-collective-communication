@@ -1,0 +1,5 @@
+*.o
+.*.swp
+
+test_broadcast
+test_scatter
