@@ -14,8 +14,10 @@ bucket_a2a_kernels.cu:
   All targets can be made with `make`.
 
 
-Someone was using devices 0,3,4,5
-Number of doubles is 2^31-1
+Someone was using devices 0,3,4,5.
+
+Number of doubles is 2^31-1.
+
 ```
 CUDA_VISIBLE_DEVICES=1,2,6,7,8,9,10,11,12,13,14,15 ./bucket_all2all 2147483647 12
 0 can access 1
